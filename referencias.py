@@ -2,7 +2,7 @@ mes = ["0","jan.","fev.","mar.","abr.","mai.","jun.","jul.","ago.","set.","out."
 ano = 2022
 tipo = int(input("=========================\n\n[1] Jornal com Autor\n[2] Jornal sem Autor\n[3] Site com Autor\n[4] Site sem Autor\n\nDigite uma opção: "))
 
-while tipo >=0 and tipo <=4:
+while tipo >= 1 and tipo <= 4:
 	if tipo == 1:
 		cautor_last = input("SOBRENOME: ").upper()
 		cautor_name = input("Nome: ")
