@@ -1,8 +1,8 @@
 mes = ["0","jan.","fev.","mar.","abr.","mai.","jun.","jul.","ago.","set.","out.","nov.","dez."]
 ano = 2022
-tipo = int(input("=========================\n\n[1] Jornal com Autor\n[2] Jornal sem Autor\n[3] Site com Autor\n[4] Site sem Autor\n\nDigite uma opção: "))
+tipo = int(input("=========================\n\n[1] Jornal com Autor\n[2] Jornal sem Autor\n[3] Site com Autor\n[4] Site sem Autor.\n[5] Livro com 1 autor.\n[6] Livro com 2 autores.\n[7] Livro com 3 autores.\n[8] Livro com mais de 3 autores.\n[9] Livro com autor anonimo.\n\nDigite uma opção: "))
 
-while tipo >= 1 and tipo <= 4:
+while tipo >=0 and tipo <=9:
 	if tipo == 1:
 		cautor_last = input("SOBRENOME: ").upper()
 		cautor_name = input("Nome: ")
@@ -46,4 +46,47 @@ while tipo >= 1 and tipo <= 4:
 		sautor_access = input("Acesso em (dia): ")
 		sautor_accessm = int(input("Acesso em (mês): "))
 		print("==================================\n\n" + sautor_title + ". " + sautor_sname + ", " + sautor_year + ". Disponível em: " + sautor_site + ". Acesso em: " + sautor_access + " de " + mes[sautor_accessm] + " de " + str(ano) + ".\n\n")
-	tipo = int(input("=========================\n\n[1] Jornal com Autor\n[2] Jornal sem Autor\n[3] Site com Autor\n[4] Site sem Autor\n\nDigite uma opção: "))
+	elif tipo == 5:
+		cautor_last = input("SOBRENOME: ").upper()
+		cautor_name = input("Nome em sigla (A. B): ")
+		cautor_title = input("Titulo (negrito): subtitulo (se houver): ")
+		cautor_edition = input("Edição (2+): ")
+		cautor_city = input("Local de publicação: editora: ")
+		cautor_ano = input("Ano de publicação: ")
+		print("==================================\n\n" + cautor_last + ", " + cautor_name + ". " + cautor_title + ". " + cautor_edition + ". ed. " + cautor_city + ", " + cautor_ano + ".\n\n")
+	elif tipo == 6:
+		cautor_last1 = input("SOBRENOME: ").upper()
+		cautor_name1 = input("Nome em sigla (A. B.): ")
+		cautor_last2 = input("SOBRENOME: ").upper()
+		cautor_name2 = input("Nome em sigla (A. B): ")
+		cautor_title = input("Titulo (negrito): subtitulo (se houver): ")
+		cautor_edition = input("Edição (2+.): ")
+		cautor_city = input("Local de publicação: editora: ")
+		cautor_ano = input("Ano de publicação: ")
+		print("==================================\n\n" + cautor_last1 + ", " + cautor_name1 + "; " + cautor_last2 + ", " + cautor_name2 + ". " + cautor_title + ". " + cautor_edition + ". ed. " + cautor_city + ", " + cautor_ano + ".\n\n")
+	elif tipo == 7:
+		cautor_last1 = input("SOBRENOME: ").upper()
+		cautor_name1 = input("Nome em sigla (A. B.): ")
+		cautor_last2 = input("SOBRENOME: ").upper()
+		cautor_name2 = input("Nome em sigla (A. B.): ")
+		cautor_last3 = input("SOBRENOME: ").upper()
+		cautor_name3 = input("Nome em sigla (A. B): ")
+		cautor_title = input("Titulo (negrito): subtitulo (se houver): ")
+		cautor_edition = input("Edição (2+.): ")
+		cautor_city = input("Local de publicação: editora: ")
+		cautor_ano = input("Ano de publicação: ")
+		print("==================================\n\n" + cautor_last1 + ", " + cautor_name1 + "; " + cautor_last2 + ", " + cautor_name2 + "; " + cautor_last3 + ", " + cautor_name3 + ". " + cautor_title + ". " + cautor_edition + ". ed. " + cautor_city + ", " + cautor_ano + ".\n\n")
+	elif tipo == 8:
+		cautor_last = input("SOBRENOME: ").upper()
+		cautor_name = input("Nome em sigla (A. B.): ")
+		cautor_title = input("Titulo (negrito): subtitulo (se houver): ")
+		cautor_edition = input("Edição (2+): ")
+		cautor_city = input("Local de publicação: editora: ")
+		cautor_ano = input("Ano de publicação: ")
+		print("==================================\n\n" + cautor_last + ", " + cautor_name + " et al. " + cautor_title + ". " + cautor_edition + ". ed. " + cautor_city + ", " + cautor_ano + ".\n\n")
+	elif tipo == 9:
+		sautor_title = input("Titulo: ").upper()
+		sautor_city = input("Local de publição: editora: ")
+		sautor_ano = input("Ano de publicação: ")
+		print("==================================\n\n" + sautor_title + ". " + sautor_city + ", " + sautor_ano + ".\n\n")
+	tipo = int(input("=========================\n\n[1] Jornal com Autor\n[2] Jornal sem Autor\n[3] Site com Autor\n[4] Site sem Autor.\n[5] Livro com 1 autor.\n[6] Livro com 2 autores.\n[7] Livro com 3 autores.\n[8] Livro com mais de 3 autores.\n[9] Livro com autor anonimo.\n\nDigite uma opção: "))
