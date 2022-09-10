@@ -1,6 +1,6 @@
 mes = ["0","jan.","fev.","mar.","abr.","mai.","jun.","jul.","ago.","set.","out.","nov.","dez."]
 ano = 2022
-tipo = int(input("=========================\n\n[1] Jornal com Autor\n[2] Jornal sem Autor\n[3] Site com Autor\n[4] Site sem Autor.\n[5] Livro com 1 autor.\n[6] Livro com 2 autores.\n[7] Livro com 3 autores.\n[8] Livro com mais de 3 autores.\n[9] Livro com autor anonimo.\n\nDigite uma opção: "))
+tipo = int(input("=========================\n\n[1] Jornal com Autor\n[2] Jornal sem Autor\n[3] Site com Autor\n[4] Site sem Autor\n[5] Livro com 1 autor\n[6] Livro com 2 autores\n[7] Livro com 3 autores\n[8] Livro com mais de 3 autores\n[9] Livro com autor anonimo\n\nDigite uma opção: "))
 
 while tipo >=0 and tipo <=9:
 	if tipo == 1:
@@ -89,4 +89,9 @@ while tipo >=0 and tipo <=9:
 		sautor_city = input("Local de publição: editora: ")
 		sautor_ano = input("Ano de publicação: ")
 		print("==================================\n\n" + sautor_title + ". " + sautor_city + ", " + sautor_ano + ".\n\n")
-	tipo = int(input("=========================\n\n[1] Jornal com Autor\n[2] Jornal sem Autor\n[3] Site com Autor\n[4] Site sem Autor.\n[5] Livro com 1 autor.\n[6] Livro com 2 autores.\n[7] Livro com 3 autores.\n[8] Livro com mais de 3 autores.\n[9] Livro com autor anonimo.\n\nDigite uma opção: "))
+	
+	
+	
+	
+	
+	tipo = int(input("=========================\n\n[1] Jornal com Autor\n[2] Jornal sem Autor\n[3] Site com Autor\n[4] Site sem Autor\n[5] Livro com 1 autor\n[6] Livro com 2 autores\n[7] Livro com 3 autores\n[8] Livro com mais de 3 autores\n[9] Livro com autor anonimo\n\nDigite uma opção: "))
