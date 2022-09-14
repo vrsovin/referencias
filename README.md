@@ -1,9 +1,9 @@
 # referencias
 Programa de terminal feito em python para preenchimento de referências bibliográficas de forma semi automática.
 
-Para usar, você precisa ter o python3 instalado em qualquer terminal que suporte ele (termux em android, terminal do seu linux ou do WSL do windows, etc.).
+Para usar, você precisa ter o python3 instalado em qualquer terminal que suporte ele (termux em android, terminal do seu linux ou do WSL do windows, IDE Python, etc.).
 
-Use o comando python3 referencias.py para executar o código.
+Use o comando python3 referencias.py para executar o código (em breve terá uma versão .exe para windows que não necessita ter o python instalado, funcionando como um portable app, porém, ainda sem interface gráfica).
 
 Aparecerá 9 opções com sites, livros e jornais.
 
