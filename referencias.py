@@ -1,6 +1,6 @@
 mes = ["0","jan.","fev.","mar.","abr.","mai.","jun.","jul.","ago.","set.","out.","nov.","dez."]
 ano = 2022
-tipo = int(input("=========================\n\n[1] Jornal com Autor\n[2] Jornal sem Autor\n[3] Site com Autor\n[4] Site sem Autor\n[5] Livro com 1 autor\n[6] Livro com 2 autores\n[7] Livro com 3 autores\n[8] Livro com mais de 3 autores\n[9] Livro com autor anonimo\n\n[0] Sair\n\nDigite uma opção: "))
+tipo = int(input("=========================\n\n[1] Jornal com Autor\n[2] Jornal sem Autor\n[3] Site com Autor\n[4] Site sem Autor\n[5] Livro com 1 Autor\n[6] Livro com 2 Autores\n[7] Livro com 3 Autores\n[8] Livro com mais de 3 Autores\n[9] Livro com Autor Anonimo\n\n[0] Sair\n\nDigite uma opção: "))
 
 while tipo >=1 and tipo <=9:
 	if tipo == 1:
@@ -18,7 +18,7 @@ while tipo >=1 and tipo <=9:
 		cautor_accessm = int(input("Acesso em (mês): "))
 		print("==================================\n\n" + cautor_last + ", " + cautor_name + ". " + cautor_title + ". " + cautor_namej + ", " + cautor_city + ", " + cautor_date + " de  " + mes[cautor_datem] + " de " + cautor_datey + ". " + cautor_section + ". Disponível em:  " + cautor_site + ". Acesso em: " + cautor_access + " de " + mes[cautor_accessm] + "de " + str(ano) + ".\n\n")
 	elif tipo == 2:
-		sautor_title = input("Titulo da matéria: ").upper()
+		sautor_title = input("TITULO: ").upper()
 		sautor_name = input ("Nome do Jornal (negrito): ")
 		sautor_city = input ("Cidade de publicação: ")
 		sautor_date = input("Dia de publicação: ")
@@ -40,7 +40,7 @@ while tipo >=1 and tipo <=9:
 		cautor_accessm = int(input("Acesso em (mês): "))
 		print("==================================\n\n" + cautor_last + ", " + cautor_name + ". " + cautor_title + ". " + cautor_sname + ", " + cautor_year + ". Disponível em: " + cautor_site + ". Acesso em: " + cautor_access + " de " + mes[cautor_accessm] + " de " + str(ano) + ".\n\n")
 	elif tipo == 4:
-		sautor_title = input("Titulo da matéria: ").upper()
+		sautor_title = input("TITULO: ").upper()
 		sautor_sname = input ("Nome do site (negrito): ")
 		sautor_year = input("Ano de publicação: ")
 		sautor_site = input("Disponível em: ")
@@ -86,8 +86,8 @@ while tipo >=1 and tipo <=9:
 		cautor_ano = input("Ano de publicação: ")
 		print("==================================\n\n" + cautor_last + ", " + cautor_name + " et al. " + cautor_title + ". " + cautor_edition + ". ed. " + cautor_city + ", " + cautor_ano + ".\n\n")
 	elif tipo == 9:
-		sautor_title = input("Titulo: ").upper()
+		sautor_title = input("TITULO: ").upper()
 		sautor_city = input("Local de publição: editora: ")
 		sautor_ano = input("Ano de publicação: ")
 		print("==================================\n\n" + sautor_title + ". " + sautor_city + ", " + sautor_ano + ".\n\n")
-	tipo = int(input("=========================\n\n[1] Jornal com Autor\n[2] Jornal sem Autor\n[3] Site com Autor\n[4] Site sem Autor\n[5] Livro com 1 autor\n[6] Livro com 2 autores\n[7] Livro com 3 autores\n[8] Livro com mais de 3 autores\n[9] Livro com autor anonimo\n\n[0] Sair\n\nDigite uma opção: "))
+	tipo = int(input("=========================\n\n[1] Jornal com Autor\n[2] Jornal sem Autor\n[3] Site com Autor\n[4] Site sem Autor\n[5] Livro com 1 Autor\n[6] Livro com 2 Autores\n[7] Livro com 3 Autores\n[8] Livro com mais de 3 Autores\n[9] Livro com Autor Anonimo\n\n[0] Sair\n\nDigite uma opção: "))
