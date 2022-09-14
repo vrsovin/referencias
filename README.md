@@ -5,7 +5,7 @@ Para usar, você precisa ter o python3 instalado em qualquer terminal que suport
 
 Use o comando python3 referencias.py para executar o código (em breve terá uma versão .exe para windows que não necessita ter o python instalado, funcionando como um portable app, porém, ainda sem interface gráfica).
 
-Aparecerá 9 opções com sites, livros e jornais.
+Aparecerá 9 opções com sites, livros e jornais (em breve, revistas).
 
 Em seguida, você deverá responder com alguma opção.
 
