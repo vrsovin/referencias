@@ -3,6 +3,8 @@ Programa de terminal feito em python para preenchimento de referências bibliogr
 
 Para usar, você precisa ter o python3 instalado em qualquer terminal que suporte ele (termux em android, terminal do seu linux ou do WSL do windows, IDE Python, python launcher for windows, etc.).
 
+Link para a parte de downloads do site oficial do Python: https://www.python.org/downloads/
+
 Use o comando python3 referencias.py para executar o código ou use o python launcher no windows para transformar o arquivo em um atalho "executável".
 
 Aparecerá 9 opções com sites, livros e jornais (em breve, revistas).
