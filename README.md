@@ -7,7 +7,7 @@ Use o comando python3 referencias.py para executar o código em programas de ter
 
 Link para baixar o Python: https://www.python.org/downloads/
 
-Aparecerá 9 opções com sites, livros e jornais (em breve, revistas).
+Aparecerá 9 opções com sites, livros e jornais.
 
 Em seguida, você deverá responder com alguma opção.
 
