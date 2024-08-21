@@ -1,5 +1,5 @@
 # referencias
-Programa de terminal feito em python para preenchimento de referências bibliográficas de forma semi automática.
+Programa de terminal feito em python para criação de referências bibliográficas no formato ABNT.
 
 Para usar, você precisa ter o python3 instalado em qualquer terminal que suporte ele (termux em android, terminal do seu linux ou do WSL do windows, IDE Python, python launcher for windows, etc.).
 
